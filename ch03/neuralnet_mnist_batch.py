@@ -2,7 +2,7 @@ import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
 import pickle
-from dataset.mnist import load_mnist
+from dataset_new.mnist import load_mnist
 from common.functions import sigmoid, softmax
 
 def get_data():
